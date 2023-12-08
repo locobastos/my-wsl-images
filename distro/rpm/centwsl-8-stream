@@ -1,0 +1,11 @@
+ZIP_NAME="CentWSL-8-Stream-20231127.0.zip"
+RPM_GPG_KEY_URL="https://www.centos.org/keys/RPM-GPG-KEY-CentOS-Official"
+LNCR_NAME="Alma"
+PKG_MGNT="dnf"
+
+# Environment variables for the AlmaLinux cloud image
+ARCH="x86_64"
+OS_VER="8"
+ROOTFS_FN="CentOS-Stream-GenericCloud-8-latest.${ARCH}.qcow2"
+ROOTFS_URL="https://cloud.centos.org/centos/${OS_VER}/${ARCH}/images/${ROOTFS_FN}"
+# URL without variable = https://cloud.centos.org/centos/8-stream/x86_64/images/

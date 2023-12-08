@@ -1,0 +1,11 @@
+ZIP_NAME="AlmaWSL-8.9.20231128.zip"
+RPM_GPG_KEY_URL="http://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-8"
+LNCR_NAME="Alma"
+PKG_MGNT="dnf"
+
+# Environment variables for the AlmaLinux cloud image
+ARCH="x86_64"
+OS_VER="8"
+ROOTFS_FN="AlmaLinux-${OS_VER}-GenericCloud-latest.${ARCH}.qcow2"
+ROOTFS_URL="http://repo.almalinux.org/almalinux/${OS_VER}/cloud/${ARCH}/images/${ROOTFS_FN}"
+# URL without variable = http://repo.almalinux.org/almalinux/8/cloud/x86_64/images/
